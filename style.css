@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-top: 10rem;
+}
+
+.checkbox {
+    height: 40px;
+    width: 160px;
+    position: relative;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.checkbox input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.box i {
+    margin-right: 4px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 2px solid gainsboro;
+}
+
